@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SharePoint.Jasmine</id>
+    <version>0.0.1</version>
+    <title>SharePoint Jasmine Test Runner</title>
+    <projectUrl>https://github.com/ThorstenHans/sp-jasmine</projectUrl>
+    <tags>SharePoint Apps Jasmine Tests JavaScript</tags>
+    <authors>Thorsten Hans</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Jasmine spec runner for SharePoint Apps</description>
+  </metadata>
+  <files>
+    <file src="src\jasmine\**.*" target="content\Scripts\jasmine" />
+    <file src="src\jasmine-samples\**.*" target="content\Scripts\jasmine-samples" />
+    <file src="src\jasmine-styles\**.*" target="content\Content\jasmine" />
+    <file src="src\jasmine-runner\**.*" target="content\Pages\tests" />
+  </files>
+</package>

@@ -1,0 +1,26 @@
+{
+  "name": "sp-jasmine",
+  "version": "0.0.1",
+  "description": "Jasmine Spec Runner for SharePoint Apps",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ThorstenHans/sp-jasmine.git"
+  },
+  "keywords": [
+    "SharePoint",
+    "Apps",
+    "Jasmine",
+    "Testing",
+    "JavaScript"
+  ],
+  "author": "Thorsten Hans <thorsten.hans@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThorstenHans/sp-jasmine/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-nuget": "~0.1.1"
+  }
+}
